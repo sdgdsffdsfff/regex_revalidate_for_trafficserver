@@ -4,7 +4,7 @@ trafficserver的正则刷新插件，支持traffic_line -x reload配置
 
 [stateam团队站点](http://www.stateam.net) - [www.stateam.net](http://www.stateam.net)
 
-参考：[社区刷新插件](https://github.com/apache/trafficserver/tree/master/plugins/experimental/regex_revalidate) ，[运维团结博文](http://www.ywjt.org/index.php/archives/883)
+参考：[社区刷新插件](https://github.com/apache/trafficserver/tree/master/plugins/experimental/regex_revalidate) ，[4399运维军团博文](http://www.ywjt.org/index.php/archives/883)
 
 缘起：社区刷新插件没有实现-x reload配置的功能。
 
