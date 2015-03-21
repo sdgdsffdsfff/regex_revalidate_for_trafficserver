@@ -1,0 +1,2 @@
+# regex_revalidate_for_trafficserver
+trafficserver的正则刷新插件，支持traffic_line -x reload配置
