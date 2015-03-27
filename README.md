@@ -7,7 +7,7 @@
 
 * 参考：[社区刷新插件](https://github.com/apache/trafficserver/tree/master/plugins/experimental/regex_revalidate) ，[4399运维军团博文](http://www.ywjt.org/index.php/archives/883)
 
->    缘起：社区刷新插件没有实现-x reload配置的功能；社区正则刷新插件的bug：在源站文件没更新的情况下刷新文件/目录的话cache会一直回源该文件/目录。
+>    缘起：社区刷新插件没有实现-x reload配置的功能；社区正则刷新插件的bug：在源站文件没更新的情况下刷新文件/目录的话cache会一直向源304询问该文件/目录。
 
 ####编译
     tsxs -c revalidate.c -o revalidate.so
